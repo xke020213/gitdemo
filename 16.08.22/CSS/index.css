@@ -12,7 +12,16 @@ p{
 	padding: 0;
 	font-family: "Myriad Pro";
 }
-
+input{
+	padding: 0;
+	border: none;
+	outline: none;
+}
+textarea{
+	padding: 0;
+	border: none;
+	outline: none;
+}
 /*-------header begin-----------*/
 .header{
 	width: 100%;
@@ -641,27 +650,58 @@ p{
 	color: #ffffff;
 	text-align: center;
 }
-.content-6-2{
-	width: 960px;
-	height: 100px;
-	margin: 68px auto 24px;
-	list-style-image: url(../images/base-2-96x96.png);
+.content-6 ul{
+	width: 1106px;
+	height: 632px;
+	margin: 28px auto 0;
 }
-.content-6-2-1{
-	width: 362px;
-	height: 100px;
+.content-6 ul li{
+	width: 528px;
+	height: 276px;
+	float: left;
+    margin-right: 50px; 
+    padding-top: 40px; 
+}
+.content-6-2{
+	background: url(../images/base-2-96x96.png) no-repeat; 
+	width: 128px;
+	height: 276px;
+	float: left;
+}
+.content-6-3{
+	width: 380px;
+	height: 276px;
+	float: left;
+	padding-left: 20px;
+}
+.content-6-3-1{
+	height: 110px;
 	font-size: 21px;
 	color: #ffffff;
 	text-align: left;
-	line-height: 26px;
-	float: left;
-    margin:0 224 0 0;
+	line-height: 31px;
+}
+.content-6-3-2{
+	height: 30px;
+	font-size: 24px;
+	color: #ffffff;
+	text-align: left;
+	text-transform: uppercase;
+}
+.content-6-3-3{
+	height: 26px;
+	font-size: 18px;
+	color: #ffdd99;
+	text-align: left;
 }
 .content-7{
 	width: 100%;
 	height: 702px;
 	background-color: #3c5499;
 	padding-top: 114px;
+}
+.content-7 span{
+	color: #bd4058;
 }
 .content-7-1{
 	width: 808px;
@@ -693,38 +733,52 @@ p{
 	height: 58px;
 	margin: 74px auto 26px;
 }
-.content-7-2 p{
+.content-7-2 div{
 	width: 388px;
+	height: 58px;
+	float: left;
+	background: #273a71;
+	border-radius: 4px;
+}
+.content-7-2 div p{
+	width: 98px;
 	height: 38px;
 	font-size: 18px;
 	color: #ffffff;
-	background: #273a71;
 	padding: 20px 0 0 28px;
 	float: left;
-	border-radius: 4px;
+}
+.content-7-2 div input{
+	display: block;
+	width: 262px;
+	height: 58px;
+	font-size: 18px;
+	background: #273a71;
+	float: left;
 }
 .content-7-3{
 	width: 866px;
-	height: 200px;
+	height: 180px;
 	margin: 0 auto 58px;
 	background: #273a71;
 	border-radius: 4px;
+	padding-top: 20px;
 }
 .content-7-3 p{
+	width: 128px;
 	height: 20px;
 	font-size: 18px;
 	color: #ffffff;
 	margin-left: 28px;
-	margin-top: 20px;
 	float: left;
 }
-.content-7-3 i{
-	background: url(../images/arrow-11x11.png) no-repeat 0 center; 
-	width: 11px;
-	height: 11px;
-	margin-right: 8px;
-	margin-top: 181px;
-	float: right;
+.content-7-3 textarea{
+	display: block;
+	width: 710px;
+	height: 180px;
+	font-size: 18px;
+	background: #273a71;
+	float: left;
 }
 .content-7>p{
 	width: 294px;
