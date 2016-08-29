@@ -1,0 +1,368 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f0f5f9;
+	height: 848px;
+}
+p{
+    margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	color: #ffffff;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+table tr:nth-child(2n){background-color: #f6f6f6;}
+/*-------header begin-----------*/
+.header{
+	width: 100%;
+	height: 60px;
+}
+.header div{
+	width: 1248px;
+	height: 60px;
+    background-color: #33bbd0;
+    float: left;
+    padding-left: 52px;
+}
+.header>div>i{
+	background: url(../images/logo-98x31.png) no-repeat 0 center;
+	display: block;
+	width: 98px;
+	height: 60px;
+	float: left;
+}
+.header>div>p{
+	width: 152px;
+	float: left;
+	border-right: 2px solid #71d0de;
+	font-size: 20px;
+	line-height: 60px;
+	font-family: "黑体";
+    text-align: center;
+    margin-right: 62px;
+}
+.header div ul{
+    width: 928px;
+    height: 60px;
+    float: left;
+}
+.header-1{
+	width: 70px;
+	height: 60px;
+	float: left;
+	margin-right: 64px;
+}
+.header-1 i{
+	background: url(../images/home-29x23.png) no-repeat 0 center;
+	display: block;
+	width: 29px;
+	height: 60px;
+	float: left;
+}
+.header div ul li p{
+	font-size: 16px;
+	line-height: 60px;
+	float: right;
+}
+.header-2{
+	width: 126px;
+	height: 60px;
+	float: left;
+	margin-right: 50px;
+	background-color: #2bacc0;
+}
+.header-2 i{
+	background: url(../images/service-24x23.png) no-repeat 0 center;
+	display: block;
+	width: 24px;
+	height: 60px;
+	float: left;
+	margin: 0 8px 0 16px;
+}
+.header-3{
+	width: 100px;
+	height: 60px;
+	float: left;
+	margin-right: 68px;
+}
+.header-3 i{
+	background: url(../images/set-meal-25x19.png) no-repeat 0 center;
+	display: block;
+	width: 25px;
+	height: 60px;
+	float: left;
+}
+.header-4{
+	width: 96px;
+	height: 60px;
+	float: left;
+	margin-right: 72px;
+}
+.header-4 i{
+	background: url(../images/data-21x20.png) no-repeat 0 center;
+	display: block;
+	width: 21px;
+	height: 60px;
+	float: left;
+}
+.header-5{
+	width: 96px;
+	height: 60px;
+	float: left;
+	margin-right: 84px;
+}
+.header-5 i{
+	background: url(../images/technical-22x22.png) no-repeat 0 center;
+	display: block;
+	width: 22px;
+	height: 60px;
+	float: left;
+}
+.header-6{
+	width: 102px;
+	height: 60px;
+	float: left;
+}
+.header-6 i{
+	background: url(../images/user-36x37.png) no-repeat 0 center;
+	display: block;
+	width: 36px;
+	height: 60px;
+	float: left;
+}
+.header>i{
+	background: url(../images/triangle-1-10x7.png) no-repeat 6px center;
+	display: block;
+	width: 49px;
+	height: 60px;
+	float: left;
+}
+/*------------header end-----------------*/
+
+.content{
+	width: 100%;
+	height: 706px;
+}
+.content-1{
+	width: 216px;
+	height: 706px;
+	background-color: #4d6584;
+	float: left;
+}
+.content-1>ul{
+	width: 216px;
+	height: 192px;
+}
+.content-1-1{
+	width: 216px;
+	height: 144px;
+}
+.content-1-1 div{
+	width: 216px;
+	height: 44px;
+	border-top: 2px solid #576e8b;
+	border-bottom: 2px solid #576e8b;
+}
+.content-1-1-1{
+	background: url(../images/shape-1-20x15.png) no-repeat 0 center;
+	display: block;
+	float: left;
+	width: 20px;
+	height: 44px;
+	margin: 0 16px 0 38px;
+}
+.content-1-1 div p{
+	width: 58px;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	float: left;
+}
+.content-1-1-2{
+	background: url(../images/shape-4-10x6.png) no-repeat 0 center;
+	display: block;
+	float: left;
+	width: 10px;
+	height: 44px;
+	margin-left: 56px;
+}
+.content-1-1 ul{
+	width: 216px;
+	height: 96px;
+}
+.content-1-1 ul li{
+	width: 216px;
+	height: 48px;
+}
+.content-1-1 ul li p{
+	font-size: 12px;
+	line-height: 48px;
+	margin-left: 58px;
+	float: left;
+}
+.content-1-1 ul li i{
+	background: url(../images/shape-3-10x18.png) no-repeat 0 center;
+	display: block;
+	width: 10px;
+	height: 18px;
+	left: 207px;
+	top: 14px;
+	position: absolute;
+	z-index: 999;
+}
+.content-1-2{
+	width: 216px;
+	height: 46px;
+	border-bottom: 2px solid #596f8c;
+}
+.content-1-2-1{
+	background: url(../images/shape-2-22x19.png) no-repeat 0 center;
+	display: block;
+	float: left;
+	width: 22px;
+	height: 46px;
+	margin: 0 18px 0 32px;
+}
+.content-1-2 p{
+	width: 58px;
+	font-size: 14px;
+	line-height: 46px;
+	text-align: center;
+	color: #a3b4ca;
+	float: left;
+}
+.content-1-2-2{
+	background: url(../images/shape-5-6x9.png) no-repeat 0 center;
+	display: block;
+	float: left;
+	width: 6px;
+	height: 46px;
+	margin-left: 60px;
+}
+.content-2{
+	width: 1133px;
+	height: 706px;
+	float: left;
+}
+.content-2-1{
+	width: 1107px;
+	height: 70px;
+	padding-left: 26px;
+	border-bottom: 2px solid #e3e5e6;
+}
+.content-2-1-1{
+	width: 150px;
+	font-size: 16px;
+	line-height: 70px;
+	color: #4d6584;
+	float: left;
+}
+.content-2-1-2{
+	width: 92px;
+	font-size: 14px;
+	line-height: 36px;
+	background-color: #4d6584;
+	text-align: center;
+	float: left;
+	margin: 16px 0 0 816px;
+	border-radius: 2px;
+}
+.content-2-2{
+	width: 1086px;
+	height: 566px;
+	background-color: #ffffff;
+	margin: 26px 0 0 26px;
+	border: 1px solid #dde0e7;
+}
+.content-2-2 table{
+	width: 1038px;
+	height: 456px;
+	border: 2px solid #dde0e7;
+	border-collapse: collapse;
+	margin: 22px 0 0 22px;
+}
+.content-2-2 table th,td{
+	border: 2px solid #dde0e7;
+}
+.content-2-2 table th{
+	height: 34px;
+	background-color: #f6f9fe;
+	font-size: 14px;
+	color: #61728a;
+	line-height: 24px;
+	text-align: center;
+}
+.content-2-2 table td{
+	height: 38px;
+	font-size: 12px;
+	color: #555555;
+	line-height: 38px;
+	text-align: center;
+}
+.content-2-2>div{
+	width: 1036px;
+	height: 34px;
+	margin: 16px 0 0 24px;
+}
+.content-2-2 div div{
+	width: 184px;
+	height: 34px;
+	float: left;
+}
+.content-2-2 div div p{
+	line-height: 34px;
+	font-size: 12px;
+	color: #555555;
+	text-align: center;
+	float: left;
+}
+.content-2-2 div div select{
+	width: 82px;
+	height: 30px;
+	float: left;
+	padding-left: 20px;
+	border: 2px solid #c4c4c4;
+	font-size: 12px;
+	color: #555555;
+	margin: 0 8px 0 8px;
+}
+.content-2-2 div  ul{
+	width: 302px;
+	height: 30px;
+	float: right;
+	border: 2px solid #c4c4c4;
+	border-radius: 2px;
+}
+.content-2-2 div ul li{
+	width: 30px;
+	height: 30px;
+	float: left;
+	border-left: 2px solid #c4c4c4;
+	font-size: 12px;
+	font-family: "Arial";
+	text-align: center;
+	line-height: 30px;
+	color: #999999;
+}
+
+/*-------footer begin-----------*/
+.footer{
+	width: 100%;
+	height: 68px;
+	background-color: #41536f;
+	padding-top: 14px;
+}
+.footer p{
+	width: 340px;
+	height: 52px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	color: #7c92b4;
+	margin: 0 auto;
+}
+/*-------footer end-----------*/
