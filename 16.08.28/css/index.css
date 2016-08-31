@@ -37,6 +37,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 }
 .header>div>p{
 	width: 152px;
+	height: 60px;
 	float: left;
 	border-right: 2px solid #71d0de;
 	font-size: 20px;
@@ -64,6 +65,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 	float: left;
 }
 .header div ul li p{
+	height: 60px;
 	font-size: 16px;
 	line-height: 60px;
 	float: right;
@@ -177,6 +179,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 }
 .content-1-1 div p{
 	width: 58px;
+	height: 44px;
 	font-size: 14px;
 	line-height: 44px;
 	text-align: center;
@@ -200,6 +203,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 }
 .content-1-1 ul li p{
 	font-size: 12px;
+	height: 48px;
 	line-height: 48px;
 	margin-left: 58px;
 	float: left;
@@ -229,6 +233,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 }
 .content-1-2 p{
 	width: 58px;
+	height: 46px;
 	font-size: 14px;
 	line-height: 46px;
 	text-align: center;
@@ -256,6 +261,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 }
 .content-2-1-1{
 	width: 150px;
+	height: 70px;
 	font-size: 16px;
 	line-height: 70px;
 	color: #4d6584;
@@ -263,6 +269,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 }
 .content-2-1-2{
 	width: 92px;
+	height: 36px;
 	font-size: 14px;
 	line-height: 36px;
 	background-color: #4d6584;
@@ -314,6 +321,7 @@ table tr:nth-child(2n){background-color: #f6f6f6;}
 	float: left;
 }
 .content-2-2 div div p{
+	height: 34px;
 	line-height: 34px;
 	font-size: 12px;
 	color: #555555;
