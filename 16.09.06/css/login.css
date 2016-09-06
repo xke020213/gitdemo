@@ -1,0 +1,125 @@
+body{
+	padding: 0;
+	margin: 0;
+	height: 624px;
+}
+p{
+	margin: 0;
+	padding: 0;
+    font-family: "Myriad Pro";
+}
+input{
+	padding: 0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+form{
+	margin: 0;
+	padding: 0;
+}
+/*-------------header begin--------------*/
+.header{
+	width: 100%;
+	height: 0;
+}
+/*-------------header end--------------*/
+
+.login{
+	width: 100%;
+	height: 494px;
+	background-color: #3c4c55;
+	padding-top: 130px;
+}
+.login>div{
+	width: 600px;
+	height: 372px;
+    margin: 0 auto;
+}
+.login>div>div{
+	width: 600px;
+	height: 50px;
+}
+.login div div div{
+	width: 256px;
+	height: 36px;
+	float: left;
+	padding: 14px 0 0 44px;
+}
+.login div div div p{
+	width: 190px;
+	height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+	float: right;
+	color: #ffffff;
+	margin-right: 42px;
+}
+.login>div>p{
+	width: 600px;
+	height: 46px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 46px;
+}
+.login div form{
+	width: 600px;
+	height: 276px;
+	position: relative;
+}
+.login div form p{
+	width: 600px;
+	height: 50px;
+}
+.login div form p input[type=text]{
+	display: block;
+	width: 294px;
+	height: 50px;
+	float: left;
+	padding-left: 16px;
+}
+#login-firstname{
+	margin-right: 12px;
+	border-left: 6px solid #40a46f;
+	color: #d3d3d3;
+}
+.login div form p i{
+	display: block;
+    width: 2px;
+    height: 30px;
+    background-color: #7f7f7f;
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    z-index: 999;
+}
+.login div form p input[type=email],.login div form p input[type=password]{
+	display: block;
+	width: 600px;
+	height: 50px;
+	padding-left: 18px;
+	color: #666666;
+}
+#login-register{
+	height: 46px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 46px;
+}
+.login div form p input[type=submit]{
+    display: block;
+	width: 600px;
+	height: 50px;
+	background-color: #40a46f;
+	color: #ffffff;
+}
+
+/*-------------footer begin--------------*/
+.footer{
+	width: 100%;
+	height: 0;
+}
+/*-------------footer end--------------*/
