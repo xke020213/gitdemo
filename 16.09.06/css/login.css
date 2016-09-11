@@ -3,6 +3,25 @@ body{
 	margin: 0;
 	height: 624px;
 }
+/*---------------------*/
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #7a7a7a;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #7a7a7a;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #7a7a7a;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #7a7a7a;
+}
+/*---------------------*/
 p{
 	margin: 0;
 	padding: 0;

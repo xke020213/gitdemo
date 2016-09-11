@@ -3,6 +3,43 @@ body{
 	margin: 0;
 	height: 624px;
 }
+/*---------------------*/
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ada092;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ada092;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ada092;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ada092;
+}
+
+input[type=password]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #e5e1dd;  
+}
+
+input[type=password]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #e5e1dd;
+}
+
+input[type=password]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #e5e1dd;
+}
+
+input[type=password]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #e5e1dd;
+}
+/*---------------------*/
 p{
 	margin: 0;
 	padding: 0;
