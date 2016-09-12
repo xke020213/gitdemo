@@ -548,7 +548,7 @@ h4{
 	background-color:transparent;
 	margin-bottom: 24px;
 	padding: 10px 0 0 8px;
-	resize:none
+	resize:none;
 }
 .request input[type=submit]{
 	width: 98px;
