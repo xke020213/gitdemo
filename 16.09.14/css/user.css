@@ -95,6 +95,9 @@ h1,h2{
 	height: 62px;
 	float: right;
 }
+input[type=sumbit]:hover{
+	cursor: pointer;
+}
 /*-----------header end--------------*/
 
 .nav{
@@ -256,6 +259,7 @@ h1,h2{
 	color: #fff;
 	text-align: center;
 	background-color: #4aa7ea;
+
 }
 .content table{
 	width: 1094px;

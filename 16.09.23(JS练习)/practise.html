@@ -1,0 +1,242 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/practise.css">
+	<script type="text/javascript" src="js/practise.js"></script>
+	<title>practise</title>
+</head>
+<body>
+    <p>本例调用的函数会执行一个计算，然后返回结果：</p>
+    <p id="demo"></p>
+    <br />
+    <p>如果时间早于 20:00，会获得问候 "Good day"。</p>
+    <button onclick="dayFunction()">点击这里</button>
+    <p id="day"></p>
+    <br />
+    <p>点击这个按钮，获得基于时间的问候。</p>
+    <button onclick="eveningFunction()">点击这里</button>
+    <p id="evening"></p>
+    <br />
+    <p>点击这个按钮，获得基于时间的问候。</p>
+    <button onclick="timeFunction()">点击这里</button>
+    <p id="time"></p>
+    <br />
+    <p>点击下面的按钮来显示今天是周几</p>
+    <button onclick="dateFunction()">点击这里</button>
+    <p id="date"></p>
+    <br />
+    <p>点击下面的按钮，会显示出基于今日日期的消息：</p>
+    <button onclick="weekendFunction()">点击这里</button>
+    <p id="weekend"></p>
+    <br />
+    <p>请输入 5 到 10 之间的数字：</p>
+    <input id="try" type="text">
+    <button type="button" onclick="tryFunction()">测试输入值</button>
+    <p id="mess"></p>
+    <br />
+    <form action="submitpage.htm" onsubmit="return validate_form(this)" method="post">
+    <!--this代表自身,把自己传给函数-->
+        Email: <input type="text" name="email" size="30">
+        <input type="submit" value="Submit"> 
+    </form>
+    <br />
+    <img id="image" src="images/iconSearch_12x12.png" />
+    <br />
+    <p id="p1">Hello World!</p>
+    <p id="p2">Hello World!</p>
+    <br />
+    <h1 id="id1">My Heading 1</h1>
+    <button type="button" onclick="document.getElementById('id1').style.color='red'">点击这里！
+    </button>
+    <br />
+    <h1 onclick="this.innerHTML='谢谢!'">请点击该文本</h1>
+    <br />
+    <h1 onclick="changetext(this)">请点击该文本</h1>
+    <br />
+    <div>请输入英文字符：
+        <input type="text" id="fname" onchange="fnamFunction()" />
+        <p>当您离开输入字段时，会触发将输入文本转换为大写的函数。</p>
+    </div>
+    <br />
+    <div class="onmouse" onmouseover="mOver(this)" onmouseout="mOut(this)" >把鼠标移到上面</div>
+    <br />
+    <div class="onmouse" onmousedown="mDown(this)" onmouseup="mUp(this)">请点击这里</div>
+    <br />
+    <div id="div1">
+        <p>这是一个段落。</p>
+        <p>这是另一个段落。</p>
+    </div>
+    <br />
+    <div id="div2">
+        <p id="p3">这是一个段落。</p>
+        <p id="p4">这是另一个段落。</p>
+    </div>
+    <br />
+    <p id="w"></p>
+    <br />
+    <input type="button" value="开始计时！" onClick="timedCount()">
+    <input type="text" id="txt">
+
+
+
+    <script type="text/javascript">
+    	function myFunction(a,b)
+    	{
+    		return a*b;
+
+    	}
+    	document.getElementById("demo").innerHTML=myFunction(4,3);
+        function dayFunction()
+        {
+        	var x="";
+            var time=new Date().getHours();  // 调取系统时间
+            if (time<20) {
+            	x="Good day";
+            }
+            document.getElementById("day").innerHTML=x;
+        }
+        function eveningFunction()
+        {
+        	var x="";
+        	var time=new Date().getHours();
+        	if (time<20) {
+        		x="Good day";
+        	}
+        	else{
+        		x="Good evening";
+        	}
+        	document.getElementById("evening").innerHTML=x;
+        }
+        function timeFunction()
+        {
+        	var x="";
+        	var time=new Date().getHours();
+        	if (time<10) {
+        		x="Good morning";
+        	}
+        	else if (time<20){
+        		x="Good day";
+        	}
+        	else{
+        		x="Good evening";
+        	}
+        	document.getElementById("time").innerHTML=x;
+        }
+        function dateFunction()
+        {
+        	var x="";
+        	var d=new Date().getDay();
+        	switch (d) {
+        		case 0:
+        		  x="Today it's Sunday";
+                  break;
+                case 1:
+                  x="Today it's Monday";
+                  break;
+                case 2:
+                  x="Today it's Tuesday";
+                  break;
+                case 3:
+                  x="Today it's Wednesday";
+                  break;
+                case 4:
+                  x="Today it's Thursday";
+                  break;
+                case 5:
+                  x="Today it's Friday";
+                  break;
+                case 6:
+                  x="Today it's Saturday";
+                  break;
+            }
+            document.getElementById("date").innerHTML=x;
+        }
+        function weekendFunction()
+        {
+        	var x="";
+        	var d=new Date().getDay();
+        	switch (d) {
+        		case 0:
+        		  x="Today it's Sunday";
+                  break;
+                case 6:
+                  x="Today it's Saturday";
+                  break;
+                default:
+                  x="Looking forward to the Weekend";
+            }
+            document.getElementById("weekend").innerHTML=x;
+        }
+        document.getElementById("image").src="images/shanghai_lupu_bridge.jpg";   
+        document.getElementById("p2").style.color="blue";
+        document.getElementById("p2").style.fontFamily="Arial";
+        document.getElementById("p2").style.fontSize="larger";
+        function mOver(obj) {
+        	obj.innerHTML="谢谢"
+        }
+        function mOut(obj) {
+        	obj.innerHTML="把鼠标移到上面"
+        }
+        function mDown(obj) {
+        	obj.style.backgroundColor="#1ec5e5";
+        	obj.innerHTML="请释放鼠标按钮"
+        }
+        function mUp(obj) {
+        	obj.style.backgroundColor="green";
+        	obj.innerHTML="请按下鼠标按钮"
+        }
+        //这段代码创建新的 <p> 元素：
+        var para=document.createElement("p"); 
+        //如需向 <p> 元素添加文本，您必须首先创建文本节点。这段代码创建了一个文本节点：
+        var node=document.createTextNode("这是新段落。"); 
+        //向 <p> 元素追加这个文本节点：
+            para.appendChild(node);
+        //向一个已有的元素追加这个新元素。找到一个已有的元素：
+        var element=document.getElementById("div1");
+        //向这个已有的元素追加新元素：
+            element.appendChild(para);
+        var parent=document.getElementById("div2");
+        var child=document.getElementById("p3");
+            parent.removeChild(child); //child.parentNode.removeChild(child);
+        function person(firstname,lastname,age,eyecolor) {
+        	this.firstname=firstname;
+        	this.lastname=lastname;
+        	this.age=age;
+        	this.eyecolor=eyecolor;
+        }
+        myFather=new person("Bill","Gates",56,"blue");
+        document.write(myFather.firstname + " is " + myFather.age + " years old.");
+
+        var arr = new Array(3)
+        arr[0] = "George"
+        arr[1] = "John"
+        arr[2] = "Thomas"
+
+       var arr2 = new Array(3)
+       arr2[0] = "James"
+       arr2[1] = "Adrew"
+       arr2[2] = "Martin"
+
+       document.write(arr.concat(arr2) + "<br />")
+
+       var mycars=new Array()
+       mycars[0]="Saab"
+       document.write(mycars[0] + "<br />");
+       //使用了 Math 对象的 floor() 方法和 random() 来返回一个介于 0 和 10 之间的随机数：
+       document.write(Math.floor(Math.random()*11)) 
+
+       //确定浏览器窗口的尺寸（涵盖所有浏览器）：
+       var w=window.innerWidth
+       || document.documentElement.clientWidth
+       || document.body.clientWidth;
+
+       var h=window.innerHeight
+       || document.documentElement.clientHeight
+       || document.body.clientHeight;
+
+       x=document.getElementById("w");
+       x.innerHTML="浏览器的内部窗口宽度：" + w + "，高度：" + h + "。"
+         
+    </script>
+</body>
+</html>

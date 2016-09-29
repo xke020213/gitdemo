@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+
+.onmouse{
+	background-color:green;
+	width:120px;
+	height:20px;
+	padding:40px;
+	color:#ffffff;
+}
