@@ -1,0 +1,149 @@
+/*******************banner begin********************/
+.banner{
+	width: 1349px;
+	height: 656px;
+}
+.banner span{
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #cfcfcf;
+}
+.banner i{
+	display: block;
+	width: 100%;
+	height: 654px;
+	background: url(../images/bg-1349x654.png) no-repeat 0 center;
+}
+/***********banner end***************/
+/***************contact begin*******************/
+.contact {
+	width: 100%;
+	height: 794px;
+	background-color: #f9f9f9;
+	padding-top: 76px;
+}
+.status{
+	width: 1204px;
+	height: 10px;
+	margin: 0 auto;
+}
+.status span:first-child{
+	width: 304px;
+	height: 10px;
+	display: block;
+	float: left;
+	background-color: #ffa636;
+}
+.status span:last-child{
+	width: 900px;
+	height: 10px;
+	display: block;
+	float: right;
+	background-color: #dad8d8;
+}
+.hello{
+	width: 1204px;
+	height: 646px;
+	margin: 72px 71px 66px 74px;
+}
+.hello div{
+	width: 672px;
+	height: 646px;
+	float: left;
+}
+.hello div h3{
+	width: 222px;
+	font-size: 28px;
+	color: #5d5d5d;
+	font-weight:bold;
+	margin-bottom: 48px;
+}
+.hello div h3 span{
+	font-weight: normal;
+	font-size: 16px;
+}
+.font22px{
+	width: 130px;
+	font-size: 22px;
+	color: #616060;
+}
+.font18px{
+	width: 672px;
+	font-size: 18px;
+	color: #979696;
+	margin-top: 38px;
+	margin-bottom: 52px;
+}
+.font14px{
+	width: 672px;
+	font-size: 14px;
+	color: #888787;
+	line-height: 38px;
+}
+.font14px span{
+	color: #434141;
+}
+.hello div div{
+	width: 306px;
+	height: 142px;
+	margin-top: 62px;
+	margin-right: 20px;
+}
+.hello div div i{
+	display: block;
+	float: left;
+	width: 142px;
+	height: 142px;
+	border:1px solid #e0e0e0;
+	background: url(../images/code-140x140.png) no-repeat 0 center;
+}
+.hello div div p{
+	width: 144px;
+	float: right;
+	font-size: 16px;
+	color: #444444;
+	margin-top: 60px;
+}
+.hello form{
+	width: 532px;
+	height: 494px;
+	float: right;
+	padding-top: 152px;
+}
+.hello form input{
+	width: 496px;
+	height: 46px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 36px;
+	color: #929090;
+	background-color: #e8e8e8;
+    padding-left: 36px;
+    border-radius: 20px;
+}
+.hello form input[type=num]{
+	margin: 38px 0 38px 0;
+}
+.hello form textarea{
+	width: 496px;
+	height: 172px;
+	padding-left: 36px;
+	border-radius: 20px;
+	background-color: #e8e8e8;
+	color: #929090;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 36px;
+}
+.hello form button{
+	width: 160px;
+	height: 54px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	line-height: 40px;
+	color: #fff;
+	background-color: #ffa636;
+    border-radius: 20px;
+    margin-top: 48px;
+}
