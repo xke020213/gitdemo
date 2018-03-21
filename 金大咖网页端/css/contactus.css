@@ -1,6 +1,6 @@
 /*******************banner begin********************/
 .banner{
-	width: 1349px;
+	width: 100%;
 	height: 656px;
 }
 .banner span{
@@ -14,6 +14,7 @@
 	width: 100%;
 	height: 654px;
 	background: url(../images/bg-1349x654.png) no-repeat 0 center;
+	margin: 0 auto;
 }
 /***********banner end***************/
 /***************contact begin*******************/
@@ -45,7 +46,9 @@
 .hello{
 	width: 1204px;
 	height: 646px;
-	margin: 72px 71px 66px 74px;
+	margin: 0 auto;
+	margin-top: 72px;
+	margin-bottom: 66px;
 }
 .hello div{
 	width: 672px;

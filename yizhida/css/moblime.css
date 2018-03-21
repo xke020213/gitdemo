@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+  html{font-size: 14px;}
+  .container,.new .alerts,.constr,.new .alerts,body,header,main,.swiper-container,footer,.com,.web,.advant,.ouritem{max-width: 100%;min-width: 100%;width: 100%;}
+  header{ line-height:3.5rem; height: 3.5rem;text-align: center; }
+  header .logo{text-align: center;}
+  header .home,header .more{font-size: 20px;font-weight: bold; color: #0097ff;}
+  .swiper-container{height: 12rem;}
+    .hei{height: 18rem;}
+  .swiper-slide .box .name{font-size: 20px;}
+  .swiper-slide .box .text{font-size: 22px;}
+  .can .sys .sys-detail{font-size:10px; width: 80%;margin-top: 0.2rem;}
+  .adv .num-box:hover{box-shadow: none;transform:none;}
+  .adv{background-color: #f4f4f4; margin-bottom: 0.45rem;}
+  .adv .text{font-size:15px; margin: 0 auto;}
+  .adv .num-box + .num-box{margin-left:2%;}
+  footer .progress{margin-bottom: 1rem;}
+  footer .column{display: block;float: none; width: 90%;margin:0 auto;}
+  footer .detail{margin: 1rem 0;}
+  .com{padding: 0; text-align: center;}
+  .advant{height:16rem;background: url('../images/m-adv.png') no-repeat;background-size: 100% 100%;}
+  .web,{height: 14rem;}
+  .web .pic-left{margin: 0;width: 16rem;height: 8rem;}
+  .web .main{margin-left: 16rem;    padding-top: 1.5rem;}
+  .yzd p{font-size: 13px; white-space: nowrap;}
+  .develop .title:after, .develop .title:before{background-color:#c3c7c7;}
+  .ouritem .title:after, .ouritem .title:before,.wedo .title:after, .wedo .title:before{margin-top: 0.7rem;height: 0.1rem; }
+  .ouritem .name{font-size: 13px; white-space: nowrap;}
+  .ouritem .col, .mail-box .message, .mail-box .inform{width: 100%;}
+  .demand{height: 13rem;}
+  .wedo .column + .column {margin-left: 0;}
+  .wedo .column{width: 49%; margin-bottom: 1rem;}
+  .mail-box{width: 100%; box-sizing: border-box;padding: 0 1rem 1rem;}
+  .toggle{display: block;line-height: normal;}
+  .mail-box .item-box{height: 2rem;line-height: 2rem;margin-bottom: 0.7rem;}
+  .adv,.new,{box-sizing: border-box;padding-left:  0.5rem;padding-right:  0.5rem;}
+  .yzd,.demand,.wedo{width: 90%;margin: 0 auto;color: #606060;}
+  .ouritem ul{width: 97%;margin: 0 auto;}
+   header nav,.develop .container,.com .ico,.swiper-pagination,.pcd,header .tel-box,.sky,.dynamics,.can .sys:last-child,.backco .arrow,footer .col,footer .column:last-child,footer .title{display: none;}
+  .swiper-slide .box .eng, .title,.coop h1{font-size: 16px!important;}
+  .swiper-slide .box .detail,.can .sys .sys-name,.service .eng,.wedo h1,.mail-box .team{font-size: 14px!important;}
+  .can h1{font-size: 14px;white-space: nowrap;}
+    .can p{font-size: 10px; line-height: normal;width: 80%;}
+  .can .detail,.adv .detail,.com .company,.service .tip,.web p,.develop p,.develop h1{font-size: 10px;}
+  .develop p{ width: 70%;margin: 0 auto; color: #c3c7c7;letter-spacing: 0.06rem;}
+  .develop h1{ margin-top: 0.5rem;white-space: nowrap;}
+  header nav .link{ padding: 0.6rem 1.5%; font-size: 12px;}
+  .advant p,.can .arrow,.new .title,.new .more,,.wedo p,.mail-box .tell,.mail-box .title,.mail-box .send,.ouritem .detail{font-size: 12px!important;}
+  .yzd .hello{font-weight: bold;letter-spacing: 0.06rem;}
+  .develop .title, .yzd .hello,.ouritem .title{font-size: 18px;}
+  .ouritem .col:nth-child(2n),.wedo .column:nth-child(2n){margin-left: 2%;}
+  .web .cont,.mail-box .hi,.advant .title,.service .title{padding-top: 1rem;}
+  .coop h2{    max-width: 80%;    margin:  0.5rem auto 0;    font-size: 13px;  }
+  .service{height: 24rem;background: url('../images/m-service.png')no-repeat;background-size: 100% 100%; }
+  .service .line,.advant .line,.transact .line{width: 16%; margin: 0.5rem auto 0.8rem;}
+  .advant .ico{width:2.5rem;height: 2.5rem; margin: 0 auto; }
+  .advant ul{margin: 2rem auto 0;}
+  .advant p{margin: 0.3rem auto; width: 80%; font-size: 10px;}
+  .web{background: url('../images/m-web.png')no-repeat;background-size: 100% 100%;height: 20rem;}
+  .web .cont{max-width: 80%; text-align: left; margin: 0 auto ;}
+  .web .text{margin: 0;font-size: 12px;}
+  .web .title{font-size: 16px;margin-right: 0.3rem;}
+  .web .bulid{margin: 11rem 0 0.3rem; font-size: 14px;}
+  .web p{letter-spacing: -1px; white-space: nowrap;}
+  .transact.moblime{background: url('../images/m-page.jpg')no-repeat;height: 20rem;background-size: 100% 100%;}
+  .transact .title{padding-top: 1rem;}
+  .barr{margin: 1rem 0 0 15%;text-align: left;}
+  .pc.moblime{height:auto;background-color: #fff; padding-bottom: 1rem;}
+  .pc .pic{width:75%;height: auto;margin: 0 auto 1.5rem; padding-top: 1.5rem;}
+  .pc .cell-main+.cell-main{margin-left: 8%;}
+  .pc .name{font-size: 14px;}
+  .pc .detail{font-size: 12px;}
+  .mail-box .send{width: auto;display: inline-block;line-height:1.8rem;padding: 0 0.3rem; }
+  .mail-box .message + .inform{margin:1rem 0 0;}
+  .mail-box .info{width: 45%; border-bottom: 1px solid #999; height: 6rem;}
+  .mail-box .info:nth-child(2n){margin-left: 10%;}
+  .mail-box .letter{letter-spacing: -1px;white-space: nowrap;}
+  .mail-box .title{margin-top: 0.5rem;}
+  .can .pic-left{height: 8rem;}
+  .can .detail{max-width: 90%;margin-right: auto;margin-left: auto;  }
+  .can .arrow{font-size: 12px;}
+  .constr .pa10{padding: 0.3rem;}
+  .can .sys:nth-child(2){margin-top: 0.5rem;}
+  .wedo p{font-size: 12px;}
+  .ouritem .col{width: 48%;}
+  .ouritem .detail{font-size: 12px;}
+  #map {margin-bottom: 0.3rem;}
+  .mail-box .area{color: #777;}
+  .contact {
+  height: 14.5rem;
+  background: url('../images/m-contact.jpg');
+  background-size: 100% 100%;
+}
+}
