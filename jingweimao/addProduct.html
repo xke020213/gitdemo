@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/lib/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_507155_s1pkeywbq08uxr.css">
+    <title>添加商品</title>
+</head>
+<body>
+<div class="page-group">
+    <div class="page">
+        <!--头部内容 !-->
+       <header class="bar bar-nav">
+  <button class="left-icon button button-link button-nav pull-left" >
+    <span class="iconfont  icon-zuojiantou"></span>
+  </button>
+  <h1 class="title">添加商品</h1>
+</header>
+        <div class="content editAddress-content addProduct-content">
+            <div class="list-block">
+                <ul>
+                    <!-- Text inputs -->
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">商品名称</div>
+                                <div class="item-input">
+                                    <input type="text" class="r-name" placeholder="请填写商品名称">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">开团日期</div>
+                                <div class="item-input">
+                                    <input type="text" id='datetime-picker' placeholder="请填写开团日期">
+                                </div>
+                            </div>
+                        </div>
+                    </li>                   
+                     <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">规格组1</div>
+                                <div class="item-input" style="float: left;">
+                                    <input type="text" class="specInput" placeholder="请填写规格组">
+                                </div>
+                                <span class="addSpec">添加规格</span>
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">所在小区</div>
+                                <div class="item-input">
+                                    <input type="text" class="" placeholder="请填写小区名称">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">自提区</div>
+                                <div class="item-input">
+                                    <input type="text" class="" placeholder="请填写自提名地名">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">联系人</div>
+                                <div class="item-input">
+                                    <input type="text" class="" placeholder="请填写联系人姓名">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-form-email"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">联系电话</div>
+                                <div class="item-input">
+                                    <input type="text" class="" placeholder="请填写联系电话">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+               </div>
+               <div class="img-card card underline">
+               <p class="p-name">商品主图</p>
+                <div class="card-content">
+                    <ul class="card-content-inner imgList">
+                        <li id="filePicker"><img src="images/addPicture.png"></li>
+
+                    </ul>
+                </div>
+                <input type="hidden" id="productImgs" name="imgs"/>
+            </div>
+                <div id="editBtn">
+                    <a href="#" class="previewBtn button">预览</a>
+                </div>
+                 <div id="editBtn">
+                    <a href="#" class="button">保存并提交申请</a>
+                </div>
+            </div>         
+        </div>
+    </div>
+    <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+    <script type="text/javascript">$.config={router:false}</script>
+    <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    <script type="text/javascript" src="http://g.alicdn.com/msui/sm/0.6.2/js/sm-city-picker.min.js" charset="utf-8"></script>
+    <script>
+        $("#city-picker").cityPicker({
+            toolbarTemplate: '<header class="bar bar-nav">\
+        <button class="button button-link pull-right close-picker">确定</button>\
+        <h1 class="title">选择收货地址</h1>\
+        </header>'
+        });
+        $("#datetime-picker").datetimePicker({
+    // value: ['2017', '12', '04', '9', '34']
+  });
+    </script>
+    <script type="text/javascript">$.init();</script>
+</div>
+</body>
+
+</html>

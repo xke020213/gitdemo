@@ -1,0 +1,593 @@
+.content .pic {
+  width: 4.0rem;
+  height: 4.0rem;
+  margin-right: 0.5rem;
+}
+.content .price {
+  font-size: 14px;
+}
+.orange {
+  color: #ff6600;
+}
+.content .s-count {
+  float: right;
+  margin-top: 10px;
+}
+.content .p-list {
+  margin-bottom: 0.5rem;
+}
+.content .s-payment {
+  margin-left: 14px;
+  float: left;
+  line-height: 26px;
+  font-size: 14px;
+  color: #a8a8a8;
+}
+.content .pspec {
+  bottom: 0;
+  height: 26px;
+}
+.content .date {
+  font-size: 12px;
+  color: #333;
+  line-height: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.content .coll {
+  padding-bottom: 0.3rem;
+}
+.content .like {
+  display: none;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  color: #999;
+  font-size: 12px;
+  padding: 0 0.2rem;
+}
+.delBtn {
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  background-color: #ee6833;
+  color: #fff;
+  width: 90px;
+}
+.allCheck {
+  line-height: 2.5rem;
+  height: 2.5rem;
+  font-size: 16px;
+  float: right;
+  padding-right: 0.75rem;
+}
+.allCheck .select {
+  margin-left: 0.2rem;
+}
+.psw-box {
+  line-height: 2.4rem;
+  font-size: 14px;
+  background-color: #fff;
+}
+.psw-box .text {
+  width: 15%;
+}
+.psw-box .confirm {
+  display: block;
+  padding: 0.1rem 0.3rem;
+  font-size: 14px;
+  background-color: #a7cf14;
+  color: #fff;
+  border-radius: 0.2rem;
+  line-height: normal;
+  height: 1.3rem;
+  margin: 0.55rem 0.5rem 0 0;
+}
+.content .btn {
+  margin-top: 1.0rem;
+  width: 90%;
+  line-height: 2.25rem;
+  text-align: center;
+  border-radius: 0.15rem;
+  background-color: #a7cf14;
+  color: #fff;
+  font-size: 16px;
+}
+.content .colorline {
+  height: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.content .title-box,
+.content .link-box {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+.addr {
+  padding: 0.5rem 0;
+  height: 3rem;
+  background-color: #fff;
+}
+.addr .ico {
+  font-size: 20px;
+}
+.addr .address {
+  color: #999;
+}
+.orderlist {
+  background-color: #fff;
+}
+.orderlist .tit {
+  font-size: 16px;
+}
+.orderlist .state {
+  color: #ff6600;
+}
+.orderlist .goods {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.orderlist .name {
+  font-size: 16px;
+}
+.orderlist .spec {
+  color: #999;
+}
+.orderlist .service,
+.orderlist .watch {
+  padding: 0.2rem 0.3rem;
+  border: 1px solid #999;
+  margin-left: 0.5rem;
+  border-radius: 0.15rem;
+}
+.inf-wrapper {
+  margin-top: 0.5rem;
+  background-color: #fff;
+}
+.inf-wrapper .column {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.inf-wrapper .inf {
+  line-height: 1.5rem;
+}
+.inf-wrapper .inf-l {
+  color: #999;
+}
+.evaluate {
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2.5rem;
+  background-color: #a7cf14;
+  color: #fff;
+  width: 5.0rem;
+}
+.tab-btn {
+  width: 100%;
+  padding: 0 15%;
+  background: #fff;
+}
+.tab-btn .tab-link {
+  line-height: 2.2rem;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+}
+.tab-btn .active {
+  color: #a7cf14;
+  border-bottom-color: #a7cf14;
+}
+.detail {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.detail .time {
+  font-size: 12px;
+  color: #999;
+}
+.orderinf {
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.orderinf .inf {
+  line-height: 2rem;
+}
+.orderinf .text {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+.orderinf .remark {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+.orderinf .texta {
+  margin-top: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.15rem 0.3rem;
+  height: 3.5rem;
+  border-radius: 0.15rem;
+  background-color: #f5f5f5;
+}
+.bar .total {
+  padding: 0.33rem 0;
+  line-height: normal;
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+.bar .total .goodsprice {
+  font-size: 12px;
+}
+.tab-group {
+  margin-bottom: 0.5rem;
+}
+.tab-group .tab-link {
+  line-height: 2.0rem;
+  background-color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.tab-group .tab-link + .tab-link {
+  border-left: 1px solid #ccc;
+}
+.tab-group .sort {
+  height: 0.6rem;
+  width: 0.4rem;
+  margin-left: 0.2 rem;
+}
+.tab-group .active {
+  color: #a7cf14;
+}
+.goods-box {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  position: relative;
+}
+.goods-box .pic {
+  width: 6.0rem;
+  height: 6.0rem;
+}
+.goods-box .name {
+  font-size: 14px;
+}
+.goods-box .timetip {
+  color: #777;
+  font-size: 12px;
+}
+.goods-box .time {
+  display: inline-block;
+  background-color: #a7cf14;
+  padding: 0.2rem;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+.goods-box .join {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1rem;
+  background-color: #eb392f;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 16px;
+}
+.goods-box .person {
+  color: #999;
+  line-height: 1.5;
+}
+.goods-box .price.xl {
+  font-weight: bold;
+}
+.swiper-container {
+  height: 18.8rem;
+  width: 100%;
+}
+.swiper-container img {
+  height: 100%;
+}
+.swiper-container .back,
+.swiper-container .share {
+  position: absolute;
+  z-index: 2;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  top: 0.5rem;
+  text-align: center;
+  font-size: 18px;
+}
+.swiper-container .back {
+  left: 0.5rem;
+}
+.swiper-container .share {
+  right: 0.5rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: #a7cf14;
+}
+.red {
+  color: #fc4749;
+}
+.hui {
+  color: #999;
+}
+.goods-det {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.group {
+  background-color: #fff;
+  margin: 0.5rem 0;
+}
+.group .header {
+  line-height: 1.7rem;
+}
+.group .inf-box {
+  line-height: 3.5rem;
+}
+.group .addre {
+  white-space: nowrap;
+}
+.group .inf-a {
+  padding: 0.3rem;
+}
+.group .pic {
+  width: 2.55rem;
+  height: 2.55rem;
+  border-radius: 50%;
+  margin: 0 0.3rem;
+}
+.group .join {
+  background-color: #eb392f;
+  color: #fff;
+  line-height: 1.5rem;
+  width: 3.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+.select-group {
+  background-color: #fff;
+}
+.select-group .select-box {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  line-height: 1.2rem;
+}
+.select-group .arrow,
+.group .arrow {
+  font-size: 18px;
+}
+.assess {
+  background-color: #fff;
+  margin-top: 1rem;
+}
+.assess .header {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  line-height: 1.2rem;
+}
+.assess .grade-wrapper,
+.assess .assess-det,
+.assess .pic-box {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.assess .btn-grade {
+  text-align: center;
+  padding: 0.3rem;
+  background-color: #fedadb;
+  border-radius: 0.15rem;
+}
+.assess .btn-grade + .btn-grade {
+  margin-left: 3%;
+}
+.assess .head {
+  padding: 0.5rem;
+}
+.assess .pic {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.assess .img {
+  width: 32%;
+  height: 5.35rem;
+}
+.assess .pic-box {
+  overflow: hidden;
+}
+.assess .img + .img {
+  margin-left: 2%;
+}
+.items-wrapper {
+  background-color: #fff;
+  padding-bottom: 2rem;
+}
+.items-wrapper .header {
+  line-height: 2.3rem;
+  height: 2.3rem;
+}
+.items-wrapper .title {
+  font-size: 18px;
+  color: #a7cf14;
+}
+.items-wrapper .pic {
+  display: block;
+  width: 90%;
+  height: 5.0rem;
+  margin: 0.5rem auto 0;
+}
+.Recommend {
+  background-color: #Fff;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.Recommend .img {
+  display: block;
+  width: 50%;
+  height: 0.9rem;
+  margin: 0.5rem auto 0;
+}
+.page > .content {
+  margin-bottom: 2.8rem;
+}
+#singer {
+  background-color: #fb7a73;
+  color: #fff;
+}
+#joinus {
+  background-color: #eb392f;
+  color: #fff;
+}
+.bar .ic {
+  font-weight: bold;
+}
+.jointeam {
+  display: none;
+  position: absolute;
+  width: 75%;
+  height: 18.0rem;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0.25rem;
+  background-color: #fff;
+}
+.jointeam .header {
+  height: 1.8rem;
+  line-height: 1.8rem;
+}
+.jointeam .title {
+  font-size: 18px;
+  line-height: 1.8rem;
+}
+.jointeam .avatar {
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.jointeam .box-team {
+  height: 16.2rem;
+  overflow: scroll;
+}
+.jointeam .team-meb {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.jointeam .btn {
+  font-size: 16px;
+  width: 2.8rem;
+  height: 1.15rem;
+  line-height: 1.15rem;
+  background-color: #eb392f;
+  text-align: center;
+  border-radius: 0.2rem;
+  color: #fff;
+  margin: 0.6rem 0;
+}
+.jointeam .close {
+  position: absolute;
+  width: 1.1rem;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #dfe0e0;
+  top: -0.4rem;
+  right: -0.4rem;
+  color: #7a7a7a;
+  font-size: 18px;
+  font-weight: bold;
+}
+.spec-box {
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  line-height: 1.1rem;
+  text-align: center;
+  background-color: #fff;
+  bottom: 0;
+}
+.spec-box .goodpic {
+  position: absolute;
+  width: 6.1rem;
+  height: 6.1rem;
+  border-radius: 0.2rem;
+  border: 0.05rem solid #999;
+  top: -0.8rem;
+  left: 0.5rem;
+}
+.spec-box .spec-main {
+  margin: 0.5rem 7% 1rem 43%;
+  width: 50%;
+  text-align: left;
+}
+.spec-box .spec {
+  width: 29%;
+  margin-left: 3%;
+  line-height: 1.8rem;
+  border-radius: 0.4rem;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+.spec-box .active {
+  background-color: #fa8300;
+  color: #fff;
+}
+.spec-box .numsel {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  line-height: 1.95rem;
+}
+.spec-box .reduce,
+.spec-box .add {
+  display: inline-block;
+  width: 2.35rem;
+  height: 1.95rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 0.2rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: #999;
+}
+.spec-box .bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+}
+.spec-box .goCart {
+  background-color: #424242;
+}
+.spec-box .joingroup {
+  background-color: #ffb701;
+}
+.spec-box .close-box {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  color: #999999;
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+.spec-box .mb {
+  padding-bottom: 4rem;
+}

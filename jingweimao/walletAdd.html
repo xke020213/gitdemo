@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>味易欧商城</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/lib/sm.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/sm-extend.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+     <link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_508245_eg16ytxjphc9pb9.css">
+</head>
+<body>
+<div class="page-group">
+    <!--银行卡的体现审批页面!-->
+    <div class="page page-current" >
+        <!--头部内容 !-->
+        <header class="bar bar-nav">
+             <button class="left-icon button button-link button-nav pull-left" >
+    <span class="iconfont   icon-jiantouright"></span>
+  </button>
+            <h1 class="title">申请提现</h1>
+        </header>
+        <div class="content walletAdd-content bank-content ">
+            <div id="weChat-list">
+                <li class="box-inf">
+                    <div class="text cell-left wx-title payAccount-title">账号类型</div>
+                    <input type="text" class="input-t input-payAccount" placeholder="微信帐号">
+                </li>
+                <div class="underline"></div>
+                <li class="box-inf">
+                    <div class="text cell-left wx-title payAccount-title">微信帐号</div>
+                    <input type="text" class="input-t input-payAccount" placeholder="请填写微信帐号"  onkeyup="value = value.replace(/[\u4e00-\u9fa5]/g, '')">
+                </li>
+                <div class="underline"></div>
+                <li class="box-inf">
+                    <div class="text cell-left wx-title payee-title">微信昵称</div>
+                    <input type="text" class="input-t input-payee" placeholder="请填写微信昵称" id="peeBtn">
+                </li>
+                <div class="underline"></div>
+                <li class="box-inf">
+                    <div class="text cell-left wx-title payeePhone-title">手机号</div>
+                    <input type="text" class="input-t input-payeePhone" placeholder="请填写手机号">
+                </li>
+                <div class="money-card card">
+                    <li class="box-inf box-money">
+                        <div class="text cell-left">提现金额</div>
+                    </li>
+                    <div class="withdrawals">
+                        <div class=" moneycode cell-left ">¥</div>
+                        <input type="number" placeholder="请输入提现金额" id="aliPayMoney" class="cell-main">
+                    </div>
+                    <div class="underline"></div>
+                    <div class="card-content">
+                        <div class="list-block">
+                            <ul>
+                                <li>
+                                    <div class="money-wallet item-inner">
+                                        <span>可提现金额：0元</span>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+              <div id="editBtn">
+                    <a href="#" class="button">确定</a>
+                </div>
+            </div>
+        </div>
+        <script type='text/javascript' src='js/lib/zepto.js' charset='utf-8'></script>
+        <script>
+            $.config = {
+                router: false
+            }
+        </script>
+        <script type='text/javascript' src='js/lib/sm.js' charset='utf-8'></script>
+        <script type='text/javascript' src='js/lib/sm-extend.js' charset='utf-8'></script>
+    
+        <script>
+            $.init();
+        </script>
+
+</body>
+
+</html>

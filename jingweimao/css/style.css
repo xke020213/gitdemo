@@ -1,0 +1,300 @@
+/******************************开团begin******************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    list-style: none;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+.buttons-tab a{
+  font-size: 14px!important;
+}
+.openGroup-content .searchbar{
+  padding: 0;
+  background: #fff;
+  width: 100%;
+  height: 2.4rem;
+  position: relative;
+  // background-size: cover;
+}
+.openGroup-content .searchbar .add-div,.openGroup-content .searchbar .search .openGroup-content{
+   float: left;
+ 
+}
+.openGroup-content .searchbar .search{
+  margin: 2% 2%;
+  border: none;
+  padding-left: 0.75rem;
+  width: 70%;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  border-radius: 2px;
+  font-size: 14px;
+  background: #f4f4f4;
+  color: #888888;
+}
+.openGroup-content .searchbar .add-div{
+	width: 9%;
+	margin-left: 3%;
+
+}
+.openGroup-content .searchbar .search-span{
+   float: right;
+   width: 11%;
+   margin-right: 3%;
+   line-height: 2.4rem;
+   font-size:16px; 
+}
+.openGroup-content #leftBtn{
+  height:2.4rem;
+  width: 9%;
+  margin-left: 3%; 
+  line-height: 2.4rem;
+  color: #b1d530;
+  font-size: 20px;
+}
+.openGroup-content .searchbar .add-div img{
+	margin-left: 5px;
+	margin-top: 6px;
+   width: 20px;
+}
+.openGroup-content .searchbar .add-div p{
+	text-align: center;
+   margin:0;
+   color: #a7cf14;
+   font-size: 12px;
+}
+.underline{
+  height:1px;
+}
+.upline:before,
+.underline:after {
+    /*0.5像素的线*/
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dadada;
+    display: block;
+    z-index: 1;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.openGroup-content .col-80 {
+    margin-left: 0 !important;
+    margin-top: 16px;
+    width: 75%;
+    color: #c1c1c1;
+     padding:10px 0 0 4%;
+    margin: 0;
+}
+.openGroup-content .row .col-20 {
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 0;
+
+}
+.openGroup-content .o-list li{
+      padding: 0 10px 10px ;
+    width: 100%;
+}
+.openGroup-content .col-20 img {
+   width: 100%;
+   height: 6rem;
+}
+.openGroup-content  .s-price{
+  color: #ff6600;
+}
+
+.openGroup-content .p-list {
+    word-wrap: break-word;
+    word-break: normal;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 3px;
+}
+.openGroup-content .o-list {
+  background: #fff;
+}
+.openGroup-content .join-div{
+  float: left;
+}
+.openGroup-content .detailOrder{
+  float: right;
+   background: #ff5000;
+   line-height: 28px;
+   width: 76px;
+   height: 28px;
+   color: #fff;
+   text-align: center;
+   margin-left: 10px;
+}
+.openGroup-content  .time-span{
+  padding:2px 4px;
+  border-radius: 4px;
+   background: #a7cf14;
+   line-height: 28px;
+   height: 28px;
+   color: #fff;
+   text-align: center;
+}
+.openGroup-content .openGroup{
+  float: right;
+  border: 1px solid #c1c1c1;
+   line-height: 28px;
+   width: 76px;
+   height: 28px;
+   color: #c1c1c1;
+   text-align: center;
+}
+.openGroup-content .status-span{
+  color: #ff000c;
+  font-size: 16px;
+}
+.openGroup-content .hot-p{
+  font-size: 16px;
+  color: #333333;
+  line-height: 30px;
+
+}
+.openGroup-content .hot-div{
+  padding:10px;
+  background: #fff;
+}
+.openGroup-content .hot-div span{
+    padding: 2px 8px;
+    background: #f7f7f7;
+    color: #888888;
+    height:36px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 4px;
+    margin-left: 10px;
+    float: left; 
+}
+/******************************开团end******************************/
+/******************************分享成功页面begin*****************************/
+.share-body{
+  height: 300px;
+  width: 80%;
+  margin: 10% auto;
+  } 
+ .share-body  .span-title {
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  height:40px;
+  color: #333;
+  background: #f2f2f2;
+ }
+ .share-body .order {  
+   height: 40px;  
+   line-height: 40px;  
+   text-align: center;  
+   width: 80%;
+   margin:0 auto;
+}
+ .share-body .order .line {  
+  margin-top: 19px;
+  width: 30%;
+  float: left;
+  height:1px;
+  background: #ccc;
+}  
+.share-body .order .txt { 
+margin: 0 10px;  
+   color: #a7cf14;  
+    float: left;
+   vertical-align: middle;  
+} 
+
+.share-body .share-content{
+  height:200px;
+  background: #fff;
+
+}
+.share-body .share-content .continue-share{
+  display: block;
+   text-align: center;
+   width: 80%;
+   height: 30px;
+   margin: 0 auto;
+   background:#e02e24;
+   color: #fff;
+   line-height: 30px;
+   border-radius: 4px;
+}
+.share-body .share-content p:first-child{
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.share-body .share-content p{
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+.share-body .share-content .span-go{
+   text-align: center;
+  display: block;
+   width: 80%;
+   height: 30px;
+   margin: 0 auto;
+   color: #e02e24;
+   line-height: 30px;
+   border-radius: 4px;
+   border: 1px solid #e02e24;
+}
+/******************************分享成功页面end*****************************/
+/******************************确认收货成功页面begin*****************************/
+.allOrder-content .icon-bg{
+  width: 100%;
+  background: #fff;
+  height:270px;
+}
+.allOrder-content .icon-bg  img{
+  display: block;
+ width: 200px;
+ height: 200px;
+ margin: 0 auto;
+ padding-top: 40px;
+}
+.allOrder-content .icon-bg h1{
+  text-align: center;
+  font-size: 20px;
+}
+.confirm-content .o-list{
+  margin-top: 20px!important;
+}
+.confirm-content .addComment{
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  width: 90px;
+  background: #ff5000;
+}
+/******************************确认收货成功页面end*****************************/

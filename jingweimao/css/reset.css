@@ -1,0 +1,265 @@
+ /*通用样式*/
+
+ html, body, div, h1, h2, h3, p, blockquote, pre, a, ol, ul, li, input {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: inherit;
+     font-weight: normal;
+     vertical-align: baseline;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ html, body {
+     width: 100%;
+ }
+ b, strong {
+     font-weight: bold;
+ }
+ ul, li {
+     list-style: none;
+ }
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+ small {
+     font-size: 75%;
+ }
+ .auto {
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .f0 {
+     font-size: 0;
+ }
+ .fn{
+     line-height: normal;
+ }
+ .pull-left {
+     float: left;
+ }
+ .pull-right {
+     float: right;
+ }
+ .cell-right {
+     margin-right: 0.5rem;
+ }
+ .cell-left {
+     margin-left: 0.5rem;
+ }
+ .right {
+     text-align: right;
+ }
+ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+ } 
+ input[type="number"] {
+     -moz-appearance: textfield;
+ }
+ input, textarea {
+     outline: none;
+ }
+ img {
+     width: 100%;
+     height: auto;
+ }
+ .clearfix:after {
+     content: '';
+     display: block;
+     clear: both;
+     height: 0;
+     visibility: hidden;
+ }
+ .flex {
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: flex;
+ }
+ .flex-wrap {
+     flex-wrap: wrap;
+ }
+ .cell-main {
+     -moz-box-flex: 1;
+     -webkit-box-flex: 1;
+     box-flex: 1;
+     flex: 1;
+ }
+ .middle {
+     -webkit-box-align: center;
+     -moz-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+ }
+ html {
+     font-size: 20px;
+ }
+ .xl {
+     font-size: 16px!important;
+ }
+ .l {
+     font-size: 14px!important;
+ }
+ .m {
+     font-size: 12px!important;
+ }
+ .lack {
+     display: none;
+ }
+ .pic-lack {
+     display: block;
+     height: 170px;
+     width: 170px;
+     margin: 0 auto 20px;
+     padding-top: 40px;
+ }
+ .text-lack {
+     color: #999999;
+     font-size: 14px;
+     max-width: 300px;
+     text-align: center;
+     margin: auto;
+ }
+ /*0.5像素的线*/
+
+ .upline:before, .underline:after {
+     content: '';
+     left: 0;
+     bottom: 0;
+     right: auto;
+     top: auto;
+     height: 1px;
+     width: 100%;
+     background-color: #dadada;
+     display: block;
+     z-index: 1;
+     -webkit-transform: scaleY(0.5);
+     transform: scaleY(0.5);
+     -webkit-transform-origin: 0 0;
+     transform-origin: 0 0;
+ }
+ .column+.column {
+     margin-left: 3%;
+ }
+ .checkbox {
+     display: none;
+ }
+ .checkbox+.ico {
+     font-size: 2.75rem;
+     margin-right: 1.5625rem;
+     color: #d5ddeb;
+ }
+ .checkbox:checked+.ico {
+     color: #ff7611;
+ }
+ .num-box:hover {
+     //上浮阴影
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+     transform: translate3d(0, -2px, 0);
+ }
+ ::-webkit-input-placeholder {
+     color: #999;
+ }
+ ::-moz-placeholder {
+     color: #999;
+ }
+ :-ms-input-placeholder {
+     color: #999;
+ }
+ :-moz-placeholder {
+     color: #999;
+ } // 进度条
+ .progress {
+     width: 100%;
+     height: 3px;
+     background-color: rgba(255, 255, 255, 0.3);
+     position: relative;
+ }
+ .barr {
+     position: absolute;
+     width: 20%;
+     height: 3px;
+     background-color: #fff;
+ } //自定义的li前标
+ list-style: square inside url('../images/dian.png'); // Switch开关   on/off 为开关中的显示
+ .checkbox {
+     display: none;
+ }
+ .over {
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2;
+     overflow: hidden;
+ }
+ .overhide {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+ .bar {
+     background-color: #fff;
+     overflow: hidden;
+     line-height: 2.3rem;
+     font-size: 16px;
+ }
+  .bar .inp{
+     margin-top: 0.25rem;
+     height: 1.8rem;
+     background-color: #f4f4f4;
+     padding-left: 0.5rem;
+     font-size: 14px;
+  }
+  .bar .search{
+     padding: 0 0.8rem;
+  }
+ .bar .title {
+     font-size: 16px;
+     line-height: 2.3rem;
+ }
+ .bar .ico {
+     font-size: 20px;
+     color: #b1d530;
+     line-height: 2.3rem;
+ }
+ .bar .saveBtn, .bar .clear {
+     font-size: 14px;
+     line-height: 2.3rem;
+     color: #999999;
+ }
+ .bar .saveBtn {
+     border-left: 1px solid #999;
+     margin-left: 0.3rem;
+     padding-left: 0.3rem;
+ }
+ .page {
+     background: #fff;
+     z-index: 1;
+ }
+  .checkbox:checked +.select{
+  color: #c0dc55;
+ }
+  .select{
+  font-size: 20px;
+  font-weight: bold;
+  color: #aaa;
+ }
+.price:before {
+    content: '¥';
+}
+.bar-nav ~ .content{
+    font-size: 14px;
+    top: 2.3rem;
+    margin-bottom: 3rem;
+}
+.expand{
+     display: none;
+     position: fixed;
+     top: 0;
+     z-index: 2;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+}

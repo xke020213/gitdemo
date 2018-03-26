@@ -1,0 +1,567 @@
+/**********************************提现页面begin***********************************/
+* {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    list-style: none;
+}
+.way-content .bg-icon {
+    background: url("../images/bg-2.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.content {
+    top: 0.8rem;
+}
+
+.way-content .bg-icon h3 {
+    font-weight: normal;
+    padding-top: 16px;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.way-content .bg-icon h1 {
+    font-weight: normal;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.way-content .bg-icon .icon-div {
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #fff;
+}
+
+.way-content .bg-icon .icon-div span {
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.way-content .bg-icon .arrow {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    margin-left: 0.3rem;
+    color: white;
+    font-size: 14px;
+}
+
+.box-inf {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    display: -webkit-box;
+    /* android 2.1-3.0, ios 3.2-4.3 */
+    position: relative;
+}
+
+.box-inf .ico {
+    margin: 10px 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.box-inf .text {
+    font-size: 16px;
+}
+
+.box-inf .r-text {
+    color: #fc595b;
+}
+
+.box-inf .h-text {
+    line-height: 38px;
+    font-size: 14px;
+    color: #999999;
+}
+.way-content  .box-inf:nth-child(n+1) {
+        height: 66px;
+        line-height: 66px;
+    }
+.way-content .list-block .item-content,.way-content .list-block.media-list .item-inner{
+            padding:0;
+        } 
+.way-content  .after-div {
+    float: right;
+}
+.way-content .list-block li {
+        background-color: #fff;
+    }
+
+
+/**********************************提现页面end**********************************/
+/**********************************提现记录页面begin**********************************/
+.cashRecord-content .content-block {
+    margin: 16px 0;
+    padding: 0 30%;
+}
+
+.cashRecord-content .info-div {
+    margin-bottom: 9px;
+    background: #fff;
+}
+
+.cashRecord-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.cashRecord-content .info-div li:first-child {
+    border-bottom: 1px solid #d0d5de;
+}
+
+.cashRecord-content .info-div li {
+    margin: 0;
+    padding: 0.75rem;
+}
+
+.cashRecord-content .info-div .iconfont {
+    font-size: 22px !important;
+}
+
+.cashRecord-content .info-div li:first-child span:last-child {
+    font-size: 16px;
+    color: #ff5757;
+}
+
+.cashRecord-content .info-div span:first-child {
+    color: #999999;
+    margin-right: 13px;
+}
+
+.cashRecord-content .info-div span {
+    display: block;
+    font-size: 16px;
+    float: left;
+}
+
+.cashRecord-content .info-div span:last-child {
+    font-size: 14px;
+    color: #999;
+    float: right;
+}
+
+.buttons-row .button {
+    border-color: #86bb07;
+    color: #86bb07;
+}
+
+.buttons-row .button.active {
+    background-color: #86bb07;
+}
+
+/**********************************提现记录页面end**********************************/
+/*******************************申请提现begin********************************/
+.bank-content .type-card {
+    margin-top: 13px;
+}
+
+.bank-content .type-card .item-title {
+    font-size: 16px !important;
+}
+
+.bank-content .type-card .item-after {
+    font-size: 14px !important;
+}
+
+.bank-content .type-card .item-after-type {
+    margin: 0;
+}
+
+.bank-content .type-card .card-content {
+    border-bottom: 2px solid #eee;
+}
+
+.bank-content .type-card .card-header:after {
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    height: 1px !important;
+    background-color: #d0d5de !important;
+}
+
+.bank-content .type-card .last-card-header:after {
+    height: 0px !important;
+}
+
+.bank-content .type-card .item-inner {
+    padding-left: 15px;
+}
+
+.bank-content .type-card .list-block .item-content {
+    padding: 0;
+}
+
+.bank-content .type-card .list-block .item-input {
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0rem;
+}
+
+.bank-content .list-block .item-input input {
+    font-size: 14px;
+}
+
+.bank-content .to-area {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bank-content .money-card .card-content .item-title {
+    font-size: 16px !important;
+}
+
+.bank-content .money-card .item-inner {
+    padding: 10px 0 10px 15px;
+}
+
+.bank-content .money-card .money-wallet {
+    color: #999;
+}
+
+.bank-content .money-card .list-block .item-title.label {
+    font-size: 28px !important;
+    width: 1.5rem;
+}
+
+.bank-content .money-card .list-block {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.bank-content .money-card .list-block .item-content {
+    padding-left: 8px;
+}
+
+.bank-content .money-list-block .item-content {
+    border-bottom: 1px solid #d0d5de;
+}
+
+.bank-content .money-card .card-header:after {
+    background-color: #ffffff !important;
+}
+
+.bank-content .money-item-title {
+    color: #999999;
+}
+
+#pageTwo input[type=radio] {
+    margin-right: 5px;
+}
+
+#pageTwo .list-block .item-inner:after {
+    background-color: #fff;
+}
+
+#pageTwo .item-content {
+    border-bottom: 1px solid #dadada;
+}
+
+#pageTwo .list-block ul:after {
+    background-color: #fff;
+}
+
+.way-content .item-title {
+    line-height: 3rem;
+}
+
+.way-content .list-block ul:after {
+    background-color: #fff;
+}
+
+.way-content .way-item-title {
+    line-height: 1.5rem;
+    color: #777777;
+}
+
+.wallet-content .wallet-card {
+    height: 7rem;
+    margin: 0;
+    background-color: #00b0ec;
+}
+
+.wallet-content .wallet-card h3 {
+    text-align: center;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.wallet-content .wallet-card h1 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.type-card .list-block {
+    width: 100%;
+    padding: 0 0.75rem;
+}
+
+.wallet-content .information-card {
+    border-top: 1px solid #ddd;
+    margin-top: 0;
+}
+
+.wallet-content .information-card.way-item-title {
+    font-size: 16px;
+}
+
+.wallet-content .information-card li {
+    border-bottom: 1px solid #dadada;
+}
+
+.wallet-content .information-card ul:first-child {
+    color: #ffffff;
+    background-color: #00b0ec;
+}
+
+.wallet-content .information-card .information-item-title {
+    font-size: 14px;
+}
+
+.wallet-content .information-card .item-subtitle {
+    font-size: 12px;
+    color: #999999;
+}
+
+.wallet-content .status-item-after {
+    font-size: 14px;
+}
+
+.cashBtn {
+    margin: 80px auto 0 !important;
+}
+
+/*关于底部绑定手机按钮*/
+.bindBtn {
+    width: 90%;
+    margin: 24px auto 0;
+}
+
+.bindBtn .button {
+    border-radius: 4px;
+    background: #ddc27b;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #ddc27b;
+    color: #fff;
+}
+
+.box-inf img {
+    height: 50px;
+    width: 50px;
+}
+
+.box-inf {
+    padding: 8px 15px;
+}
+
+.box-inf .item-inner .li-title,
+.box-inf .item-inner .subtitle {
+    height: 25px;
+    line-height: 25px;
+}
+
+.box-inf .item-inner .subtitle {
+    color: #999;
+}
+
+.box-inf .item-inner {
+    margin-left: 20px;
+}
+
+.box-inf .after-money {
+    line-height: 50px;
+}
+
+.underline {
+    height: 1px;
+}
+
+.upline:before,
+.underline:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dadada;
+    display: block;
+    z-index: 1;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+/*******************************添加提现新增的css********************************/
+.walletAdd-content .box-inf {
+    background-color: #fff;
+}
+
+.walletAdd-content input, .memberIncome-content input {
+    outline: none;
+    border: none;
+    margin: 0;
+}
+
+.walletAdd-content .input-t, .memberIncome-content .input-t {
+    margin-left: 100px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.walletAdd-content .wx-title, .memberIncome-content .wx-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    white-space: nowrap;
+}
+
+.walletAdd-content .arrow {
+    height: 15px !important;
+    width: 10px !important;
+}
+
+.walletAdd-content .card-header {
+    min-height: 2rem;
+}
+
+.walletAdd-content .money-list-block .item-content {
+    padding-bottom: 10px;
+}
+
+.walletAdd-content .moneycode {
+    font-size: 70px !important;
+    display: block;
+    line-height: 70px;
+    margin: 0;
+}
+
+.walletAdd-content #aliPayMoney {
+    height: 30px;
+    vertical-align: bottom;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+#pageOne .walletAdd-content #aliPayMoney {
+    width:70%;
+    height: 40px;
+    vertical-align: bottom;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+.walletAdd-content .money-card .money-wallet {
+    height: 50px;
+
+}
+
+.walletAdd-content .withdrawals {
+    display: flex;
+    display: -webkit-box; /* android 2.1-3.0, ios 3.2-4.3 */
+    position: relative;
+}
+
+.walletAdd-content .content {
+    padding-bottom: 1.5rem;
+}
+
+.walletAdd-content .box-inf .ico {
+    margin: 12px 10px;
+}
+
+.walletAdd-content .box-money {
+    height: 40px;
+    line-height: 40px;
+}
+
+.underline {
+    height: 1px;
+}
+
+.upline:before, .underline:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dadada;
+    display: block;
+    z-index: 1;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.cell-main {
+    flex: 1;
+    -webkit-box-flex: 1.0;
+}
+
+.cell-right {
+    margin-right: 10px !important;
+}
+
+.cell-left {
+    margin-left: 10px !important;
+}
+
+.walletAdd-content input::-webkit-outer-spin-button, .memberIncome-content input::-webkit-outer-spin-button,
+.walletAdd-content input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.walletAdd-content input[type="number"], .memberIncome-content input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.write-div .cell-left {
+    margin: 0px !important;
+}
+
+.write-div {
+    margin-top: 10px;
+}
+
+/*******************************申请提现end********************************/
